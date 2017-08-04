@@ -1,0 +1,19 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D000000"
+    tools:context="com.example.hazem.phonebook.Features.Fragments.ContactListFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="outsideInset"
+        android:scrollIndicators="top|bottom"
+        style="@style/your_style_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"></ListView>
+</RelativeLayout>
